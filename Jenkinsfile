@@ -15,6 +15,6 @@ node{
       // Run the maven build
       bat "mvn clean install"
 
-    //} // withMaven will discover the generated Maven artifacts, JUnit Surefire & FailSafe & FindBugs & SpotBugs reports...
+    } // withMaven will discover the generated Maven artifacts, JUnit Surefire & FailSafe & FindBugs & SpotBugs reports...
   }
 }
