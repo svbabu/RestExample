@@ -1,4 +1,4 @@
-node{
+node(){
   stage ('Build') {
 
     git url: 'https://github.com/svbabu/RestExample.git'
