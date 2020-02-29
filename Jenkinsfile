@@ -1,8 +1,8 @@
 node(){
   def componentkey="com.mkyong.common:RESTfulExample"
   timeout(time:2, units:'hours'){
-  properties([string(name:'AppName', defaultvalue:'RESTfulExample', description:'reuired')])
- 
+  parameters:[string(name:'AppName', defaultvalue:'RESTfulExample', description:'reuired')]
+   
   stage ('Build') {
     
     
