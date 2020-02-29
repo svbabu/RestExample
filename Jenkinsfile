@@ -1,6 +1,6 @@
 node(){
   
-  properties([String (name:'appln', defaultvalue:'reuired')])
+  properties([string (name:'appln', defaultvalue:'reuired')])
  
   stage ('Build') {
     
