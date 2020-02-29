@@ -1,5 +1,6 @@
 node(){
   def componentkey="com.mkyong.common:RESTfulExample"
+  timeout(time:2 units:'hours){
   //properties([String(name:'AppName', defaultvalue:'RESTfulExample', description:'reuired')])
  
   stage ('Build') {
@@ -26,4 +27,4 @@ node(){
     echo 'exec dev stage'
 }
 }
-
+          }
