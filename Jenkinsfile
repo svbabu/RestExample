@@ -1,6 +1,10 @@
 node(){
+  
+  timeout(2:'units')
+  {
   stage ('Build') {
-
+    
+    
     git url: 'https://github.com/svbabu/RestExample.git'
 
     withMaven(
@@ -17,4 +21,5 @@ node(){
 
     } // withMaven will discover the generated Maven artifacts, JUnit Surefire & FailSafe & FindBugs & SpotBugs reports...
   }
+}
 }
