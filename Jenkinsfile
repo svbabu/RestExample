@@ -1,7 +1,6 @@
 node(){
   
-  timeout(2:'hours')
-  {
+ 
   stage ('Build') {
     
     
@@ -21,5 +20,9 @@ node(){
 
     } // withMaven will discover the generated Maven artifacts, JUnit Surefire & FailSafe & FindBugs & SpotBugs reports...
   }
+  stage('devStage')
+  {
+    echo 'exec dev stage'
 }
 }
+
