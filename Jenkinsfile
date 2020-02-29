@@ -1,6 +1,6 @@
 node(){
   
-  timeout(2:'units')
+  timeout(2:'hours')
   {
   stage ('Build') {
     
