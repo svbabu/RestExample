@@ -1,5 +1,5 @@
 node(){
-  
+  def componentkey=
   properties([String(name:'AppName', description:'reuired')])
  
   stage ('Build') {
