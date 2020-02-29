@@ -1,6 +1,6 @@
 node(){
   def componentkey="com.mkyong.common:RESTfulExample"
-  properties([String(name:'AppName', defaultvalue:RESTfulExample, description:'reuired')])
+  properties([String(name:'AppName', defaultvalue:'RESTfulExample', description:'reuired')])
  
   stage ('Build') {
     
