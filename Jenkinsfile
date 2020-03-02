@@ -32,6 +32,7 @@ node(){
     stage('Example')
     {
       echo ' Hello ${params.TOGGLE}'
+       echo 'The ${params.AppName}'
     }
 }
           }         
