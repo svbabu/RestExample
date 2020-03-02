@@ -1,7 +1,7 @@
 node(){
   def componentkey="com.mkyong.common:RESTfulExample"
   timeout(time:2, units:'hours'){
-  parameters:[string(name:'AppName', defaultvalue:'RESTfulExample', description:'reuired')
+  parameters:[string(name:'AppName', defaultvalue:'RESTfulExample', description:'reuired')],
               boolean(name: 'TOGGLE', defaultValue: true, description: 'Toggle this value')
 ]
    
