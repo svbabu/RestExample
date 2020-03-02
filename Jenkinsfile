@@ -2,7 +2,7 @@ node(){
   def componentkey="com.mkyong.common:RESTfulExample"
   timeout(time:2, units:'hours'){
   parameters:[string(name:'AppName', defaultvalue:'RESTfulExample', description:'reuired')
-              booleanParam(name: 'TOGGLE', defaultValue: true, description: 'Toggle this value')
+              boolean(name: 'TOGGLE', defaultValue: true, description: 'Toggle this value')
 ]
    
   stage ('Build') {
