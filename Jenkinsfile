@@ -3,7 +3,7 @@ node(){
   timeout(time:2, units:'hours'){
     parameters{
       string(name:'AppName', defaultValue:'RESTfulExample', description:'reuired')
-      booleanParam(name: 'TOGGLE', defaultValue: 'toggle, description:'Toggle this value')
+      booleanParam(name: 'TOGGLE', defaultValue: 'toggle', description:'Toggle this value')
     }
    
   stage ('Build') {
