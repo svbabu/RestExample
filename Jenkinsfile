@@ -21,7 +21,7 @@ node(){
       //globalMavenSettingsConfig: 'MyGlobalSettings') {
 
       // Run the maven build
-      bat "mvn clean install"
+      bat "mvn clean verify"
 
     } // withMaven will discover the generated Maven artifacts, JUnit Surefire & FailSafe & FindBugs & SpotBugs reports...
   }
